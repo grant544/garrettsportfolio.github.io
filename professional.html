@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Page - Travis' Portfolio</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        /* Import custom Google font */
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+        /* Overall Body Styling */
+        body {
+            background: linear-gradient(135deg, #8e2de2, #4a00e0); /* Gradient background */
+            color: #f0f0f0; /* Light text for contrast */
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #1f1f1f; /* Dark background for the header */
+            color: #f0f0f0; /* Light text color */
+            padding: 30px 0;
+            text-align: center;
+            border-bottom: 5px solid #4a00e0; /* Accent color for the bottom border */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            color: #8e2de2; /* Accent color for the header text */
+            letter-spacing: 3px;
+        }
+
+        /* Navigation Bar */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #333; /* Neutral color for navigation */
+            border-radius: 30px;
+        }
+
+        nav li {
+            margin: 0 20px;
+        }
+
+        nav a {
+            color: #f0f0f0;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 12px 20px;
+            border-radius: 10px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #4a00e0; /* Highlight hover with accent color */
+            color: #1f1f1f;
+            transform: scale(1.1); /* Subtle zoom effect */
+        }
+
+        /* Resume Section Styling */
+        .resume {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #1f1f1f; /* Dark background for resume section */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        }
+
+        .resume h2 {
+            text-align: center;
+            color: #4a00e0; /* Accent color */
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .resume h3 {
+            color: #8e2de2; /* Accent color */
+            margin-top: 30px;
+        }
+
+        .resume h4 {
+            color: #4a00e0; /* Accent color */
+            margin-bottom: 10px;
+        }
+
+        .resume p, .resume ul {
+            margin: 0;
+            line-height: 1.8;
+            color: #f0f0f0; /* Light text color */
+        }
+
+        .resume ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        .resume iframe {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #1f1f1f; /* Dark background for footer */
+            color: #f0f0f0; /* Light text color */
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 14px;
+            border-top: 3px solid #4a00e0; /* Accent color for the top border */
+        }
+
+        footer a {
+            color: #8e2de2; /* Accent color for links */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            color: #4a00e0; /* Accent color on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header and Navigation Bar -->
+    <header>
+        <h1>Professional Page</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="professional.html">Professional</a></li>
+                <li><a href="personality.html">Personality</a></li>
+                <li><a href="personal-development.html">Personal Development</a></li> 
+                <li><a href="storyboard.html">Storyboard</a></li>
+                <li><a href="reference.html">References</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Professional Content -->
+    <section class="resume">
+        <h2>Curriculum Vitae</h2>
+        <!-- Embedded PDF for Resume -->
+        <iframe src="../Codes/Garrett%20A%20Resume.pdf" style="border: none;"></iframe>
+
+        <!-- Professional Vision & Mission -->
+        <section>
+            <h3>Vision Statement</h3>
+            <p>To become a leading Cyber Security specialist, driving innovative solutions to safeguard digital assets and contribute to a secure online environment for organizations and individuals worldwide.</p>
+        </section>
+
+        <section>
+            <h3>Mission Statement</h3>
+            <p>To continuously develop my skills in Cyber Security through hands-on experience, learning, and collaboration with industry experts. My mission is to apply my knowledge to protect against emerging threats and ensure the safety of digital infrastructures.</p>
+        </section>
+
+        <!-- Career Aspirations -->
+        <h2>Career Aspirations</h2>
+        <section>
+            <h3>Desired Career: IT Auditor</h3>
+            <h4>Skills Required</h4>
+            <ul>
+                <li>Strong analytical and problem-solving skills</li>
+                <li>Ability to create clear and comprehensive audit reports</li>
+                <li>Strong skills in communicating findings to both technical and non-technical stakeholders</li>
+                <li>Handling sensitive information with discretion and maintaining a high standard of integrity</li>
+            </ul>
+
+            <h4>Job Requirements</h4>
+            <ul>
+                <li>Bachelor's degree in Computer Science, Information Technology, or related field</li>
+                <li>Experience in IT auditing or a related field (e.g., IT security, systems analysis)</li>
+                <li>Strong understanding of business processes and requirements gathering</li>
+                <li>Ability to work collaboratively in a team environment</li>
+            </ul>
+
+            <h4>Qualifications</h4>
+            <ul>
+                <li>Bachelor's Degree</li>
+                <li>Certifications in the field</li>
+                <li>Knowledge of various IT systems, networks, and applications</li>
+            </ul>
+        </section>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Garrett's Portfolio | Follow me on <a href="https://www.instagram.com/" target="_blank">Instagram</a></p>
+    </footer>
+</body>
+</html>

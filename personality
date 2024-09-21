@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personality - Travis' Portfolio</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        /* Additional styling for personality page */
+        .personality-test {
+            text-align: center;
+            margin: 20px;
+        }
+        .personality-test img {
+            max-width: 80%;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header and Navigation Bar -->
+    <header>
+        <h1>Personality</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="professional.html">Professional</a></li>
+                <li><a href="personality.html">Personality</a></li> <!-- Ensure this link is correct -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Personality Content -->
+    <section>
+        <h2>My Strongest Trait and Impact</h2>
+        <p>One of my strongest traits is that I am responsible, which significantly impacts my academic life. For instance, whenever I am in groups, I ensure that all my group members are able to get tasks done effectively and ensure that they are participating; I take charge. This trait helps me because, with the busy life of a college student, having something to help keep track of all assignments is crucial, and being responsible helps with that.</p>
+
+        <h2>Favorite Quote</h2>
+        <p>My favorite quote is: "<i>Don't change yourself so that other people will like you. Be yourself so that the right people will love you.</i>". This quote is from a motivational app that I use to get daily affirmations. I chose this quote because many times we try to fit into society and lose ourselves; you don't have to force yourself on people for them to like you. Just be yourself, and the right group will find you eventually.</p>
+
+        <h2>Personality Test Results</h2>
+        <p>I took the Keirsey personality test and here are the results:</p>
+        <div class="personality-test">
+            <img src="../Assets/Screenshot 2024-09-16 235434.png" alt="Personality Test Results">
+        </div>
+        <p>Reflecting on the test, I believe that the results are valid because, as the test said, I am a guardian. As a guardian, we tend to be cautious, which I am; loyal and down-to-earth, which I am as well. I have OCD, so I pride myself on ensuring that my space is tidy and that those around me are doing okay.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Travis' Portfolio | Follow me on <a href="https://www.instagram.com/" target="_blank">Instagram</a></p>
+    </footer>
+</body>
+</html>

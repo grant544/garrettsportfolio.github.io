@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storyboard - Travis' Portfolio</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        /* Import Google font */
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+        body {
+            background: linear-gradient(135deg, #8e2de2, #4a00e0); /* Gradient background */
+            color: #f0f0f0;
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            color: #f0f0f0;
+            padding: 30px 0;
+            text-align: center;
+            border-bottom: 5px solid #4a00e0;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            color: #8e2de2;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            border-radius: 30px;
+        }
+
+        nav li {
+            margin: 0 20px;
+        }
+
+        nav a {
+            color: #f0f0f0;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 10px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #4a00e0;
+            transform: scale(1.1);
+        }
+
+        .content {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #1f1f1f;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        }
+
+        .content h2 {
+            color: #4a00e0;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #2d2d2d; /* Darker background for sections */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        }
+
+        .section h3 {
+            color: #8e2de2;
+            margin-bottom: 20px; /* Space between the heading and the images */
+            text-align: center; /* Center the heading text */
+        }
+
+        .section p, .section ul {
+            color: #f0f0f0;
+            line-height: 1.8;
+            text-align: left;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        /* Wireframe Image */
+        .wireframe {
+            text-align: center;
+        }
+
+        .wireframe img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        /* Image Gallery */
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+            text-align: center; /* Center align the heading and images */
+        }
+
+        .image-gallery a {
+            display: block;
+            max-width: 100%;
+        }
+
+        .image-gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .image-gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Hosting Link Button */
+        .hosting-link-button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #f0f0f0;
+            background-color: #4a00e0; /* Accent color */
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1rem;
+            text-align: center;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .hosting-link-button:hover {
+            background-color: #8e2de2; /* Slightly lighter accent color on hover */
+            transform: scale(1.05); /* Slight zoom effect */
+        }
+
+        footer {
+            background-color: #1f1f1f;
+            color: #f0f0f0;
+            text-align: center;
+            padding: 10px 0;
+            border-top: 3px solid #4a00e0;
+        }
+
+        footer a {
+            color: #8e2de2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            color: #4a00e0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header and Navigation Bar -->
+    <header>
+        <h1>Storyboard</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="professional.html">Professional</a></li>
+                <li><a href="personality.html">Personality</a></li>
+                <li><a href="personal-development.html">Personal Development</a></li>
+                <li><a href="storyboard.html">Storyboard</a></li>
+                <li><a href="reference.html">References</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <section class="content">
+        <h2>Storyboard Overview</h2>
+
+        <!-- Image Gallery Section -->
+        <div class="section image-gallery">
+            <h3>Wireframe Images</h3>
+            <a href="../Assets/home.jpg" target="_blank">
+                <img src="../Assets/home.jpg" alt="Home Page Screenshot">
+            </a>
+            <a href="../Assets/about me.jpg" target="_blank">
+                <img src="../Assets/about me.jpg" alt="About Me Page Screenshot">
+            </a>
+            <a href="../Assets/contact.jpg" target="_blank">
+                <img src="../Assets/contact.jpg" alt="Contact Page Screenshot">
+            </a>
+            <a href="../Assets/professional.jpg" target="_blank">
+                <img src="../Assets/professional.jpg" alt="Professional Page Screenshot">
+            </a>
+            <a href="../Assets/personality.jpg" target="_blank">
+                <img src="../Assets/personality.jpg" alt="Personality Page Screenshot">
+            </a>
+            <a href="../Assets/personal development.jpg" target="_blank">
+                <img src="../Assets/personal development.jpg" alt="Personal Development Page Screenshot">
+            </a>
+            <a href="../Assets/storyboard.jpg" target="_blank">
+                <img src="../Assets/storyboard.jpg" alt="Storyboard Page Screenshot">
+            </a>
+            <a href="../Assets/reference.jpg" target="_blank">
+                <img src="../Assets/reference.jpg" alt="Reference Page Screenshot">
+            </a>
+        </div>
+
+        <!-- Theme Section -->
+        <div class="section">
+            <h3>Site Theme</h3>
+            <p>The overall theme of this portfolio is modern and sleek, with a professional but creative feel. The color palette uses vibrant gradients (purple and blue), and the design incorporates subtle hover effects and animations. The target audience includes potential employers, educators, and peers interested in web development and cyber security.</p>
+        </div>
+
+        <!-- Features Section -->
+        <div class="section">
+            <h3>Website Features</h3>
+            <ul>
+                <li>Image Gallery on the 'About Me' page, showcasing travel and hobbies.</li>
+                <li>Interactive Resume PDF on the 'Professional' page.</li>
+                <li>Interactive picture on the home screen that leads to an email once clicked.</li>
+                <li>Social Media Link.</li>
+            </ul>
+        </div>
+
+        <!-- Web Pages & Purpose Section -->
+        <div class="section">
+            <h3>Web Pages & Purpose</h3>
+            <ul>
+                <li><strong>Home Page:</strong> Introduction to the portfolio and navigation to other sections.</li>
+                <li><strong>About Me Page:</strong> Provides a detailed overview of personal background, education, and interests.</li>
+                <li><strong>Contact Page:</strong> A form or details for reaching out, including social media links.</li>
+                <li><strong>Professional Page:</strong> Showcases resume, career vision, and skills for job opportunities.</li>
+                <li><strong>Personality Page:</strong> Details about personal traits, strengths, and hobbies.</li>
+                <li><strong>Personal Development Page:</strong> Describes personal growth, goals, and reflections.</li>
+                <li><strong>Storyboard Page:</strong> Illustrates the wireframe and design process with image gallery.</li>
+                <li><strong>References Page:</strong> Lists sources used and further reading.</li>
+            </ul>
+        </div>
+
+        <!-- Hosting Link Section -->
+        <div class="section">
+            <h3>Hosting Link</h3>
+            <a href="" target="_blank" class="hosting-link-button">View my Portfolio</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Garrett's Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+

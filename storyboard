@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storyboard - Travis' Portfolio</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        /* Import Google font */
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+        body {
+            background: linear-gradient(135deg, #8e2de2, #4a00e0); /* Gradient background */
+            color: #f0f0f0;
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            color: #f0f0f0;
+            padding: 30px 0;
+            text-align: center;
+            border-bottom: 5px solid #4a00e0;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            color: #8e2de2;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            border-radius: 30px;
+        }
+
+        nav li {
+            margin: 0 20px;
+        }
+
+        nav a {
+            color: #f0f0f0;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 10px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #4a00e0;
+            transform: scale(1.1);
+        }
+
+        .content {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #1f1f1f;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        }
+
+        .content h2 {
+            color: #4a00e0;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h3 {
+            color: #8e2de2;
+            margin-bottom: 10px;
+        }
+
+        .section p, .section ul {
+            color: #f0f0f0;
+            line-height: 1.8;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        /* Wireframe Image */
+        .wireframe {
+            text-align: center;
+        }
+
+        .wireframe img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #1f1f1f;
+            color: #f0f0f0;
+            text-align: center;
+            padding: 10px 0;
+            border-top: 3px solid #4a00e0;
+        }
+
+        footer a {
+            color: #8e2de2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            color: #4a00e0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header and Navigation Bar -->
+    <header>
+        <h1>Storyboard</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="professional.html">Professional</a></li>
+                <li><a href="personality.html">Personality</a></li>
+                <li><a href="personal-development.html">Personal Development</a></li>
+                <li><a href="storyboard.html">References</a></li>
+                <li><a href="reference.html">References</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <section class="content">
+        <h2>Storyboard Overview</h2>
+
+        <!-- Wireframe Section -->
+        <div class="section wireframe">
+            <h3>Wireframe Design</h3>
+            <img src="../assets/wireframe-example.jpg" alt="Wireframe layout">
+            <p>This wireframe represents the layout of the pages in the portfolio, providing a structural overview of each section, including navigation, content areas, and footer placement.</p>
+        </div>
+
+        <!-- List of Pages Section -->
+        <div class="section">
+            <h3>Web Pages & Purpose</h3>
+            <ul>
+                <li><strong>Home Page:</strong> Introduction to the portfolio and navigation to other sections.</li>
+                <li><strong>About Me Page:</strong> Provides a detailed overview of personal background, education, and interests.</li>
+                <li><strong>Contact Page:</strong> A form or details for reaching out, including social media links.</li>
+                <li><strong>Professional Page:</strong> Showcases resume, career vision, and skills for job opportunities.</li>
+                <li><strong>Personality Page:</strong> Details about personal traits, strengths, and hobbies.</li>
+                <li><strong>Personal Development Page:</strong> Describes personal growth, goals, and reflections on self-improvement.</li>
+                <li><strong>Reference Page:</strong> Contains citations and references in APA format for sources used throughout the site.</li>
+            </ul>
+        </div>
+
+        <!-- Theme Section -->
+        <div class="section">
+            <h3>Site Theme</h3>
+            <p>The overall theme of this portfolio is modern and sleek, with a professional but creative feel. The color palette uses vibrant gradients (purple and blue), and the design incorporates subtle hover effects and animations. The target audience includes potential employers, educators, and peers interested in web development and cyber security.</p>
+        </div>
+
+        <!-- Features Section -->
+        <div class="section">
+            <h3>Website Features</h3>
+            <ul>
+                <li>Image Gallery on the 'About Me' page, showcasing travel and hobbies.</li>
+                <li>Interactive Resume PDF on the 'Professional' page.</li>
+                <li>Interactive picture on the home screen that leads to an emial once clicked.</li>
+                <li>Social Media Link.</li>
+            </ul>
+        </div>
+
+        <!-- Hosting Section -->
+        <div class="section">
+            <h3>Free Hosting Link</h3>
+            <p>The portfolio will be hosted using a free service like GitHub Pages or Netlify. The link will be provided upon final submission.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Travis' Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
